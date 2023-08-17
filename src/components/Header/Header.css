@@ -1,0 +1,16 @@
+.header{
+    background-color: #e8eefa;
+    border: 1px solid rgb(51, 9, 236);
+}
+.headerTitle{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
