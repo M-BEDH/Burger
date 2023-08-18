@@ -19,11 +19,7 @@
     align-items: center;
     transform: rotateX(10deg) rotateY(14deg);
     transform-style: preserve-3d;
-    text-shadow: #000 1px 1px 1px;
-}
-li{
-    list-style: none;
-    font-size: 20px;
+    text-shadow: #6b6969 4px 12px 1px;
 }
 .header a{
    color: #000;
@@ -31,14 +27,14 @@ li{
     margin-bottom: 2px;
 }
 .header ul a:hover{
-    text-decoration: underline 2px  rgb(245, 187, 173);
+    text-decoration: underline 2px  rgb(163, 171, 240);
 }
 .header a.active{
-    color: rgb(228, 85, 85);
-    text-decoration: underline 2px  rgb(165, 33, 33);
+    color: rgb(13, 131, 2);
+    text-decoration: underline 2px  rgb(61, 177, 51);
 }
 .accueil, .a-propos{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 15px;
 }
 

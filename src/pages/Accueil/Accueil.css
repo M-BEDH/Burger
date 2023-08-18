@@ -6,7 +6,7 @@ a{
     margin-bottom: 10px;
     background: linear-gradient(177deg, #f7f4f0 0%, #cbf7a8 15%, #ccffcc 27%, #fff8bc 82%);
     border-radius: 30px;
-animation: myAnim 2s ease 0s 1 normal forwards;
+    animation: myAnim 2s ease 0s 1 normal forwards;
     @keyframes myAnim {
             0% {
                 animation-timing-function: ease-in;
