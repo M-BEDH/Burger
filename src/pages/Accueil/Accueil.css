@@ -4,7 +4,7 @@ a{
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 10px;
-    background: linear-gradient(177deg, #f7f4f0 0%, #cbf7a8 15%, #ccffcc 27%, #fff8bc 82%);
+    background: linear-gradient(177deg, #ffe319 26%, #000000 10%, #bbf9bb 37%, #fffac9 102%);
     border-radius: 30px;
     animation: myAnim 2s ease 0s 1 normal forwards;
     @keyframes myAnim {
