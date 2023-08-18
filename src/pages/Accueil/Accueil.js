@@ -1,13 +1,21 @@
-import Burger from '../../components/Burger/Burger';
+import Card from '../../components/Card/Card';
+import burgers from '../../data/burger.json';
+import { NavLink } from 'react-router-dom';
 import './Accueil.css';
 
 function Home() {
-  return (
-    <div className="pageAccueil">
-      <h1 className="page-Acc-Title"> Page d'Accueil </h1>
-      <Burger />
-    </div>
-  );
+  return burgers.map((burger) => (
+    <NavLink key={burger.id} to={'/burger/' + burger.id + '/#'}>
+      <div className="BurgerContainer">
+        <Card
+          key={burger.id}
+          id={burger.id}
+          pictures={burger.pictures}
+          title={burger.title}
+          price={burger.price}
+        />
+      </div>
+    </NavLink>
+  ));
 }
-
 export default Home;

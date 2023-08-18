@@ -11,14 +11,14 @@ function Header() {
             to={'/'}
             className={({ isActive }) => (isActive ? 'active' : ' ')}
           >
-            <li className="Accueil">Accueil</li>{' '}
+            <li className="accueil">Accueil</li>{' '}
           </NavLink>
 
           <NavLink
             to={'/a-propos/'}
             className={({ isActive }) => (isActive ? 'active' : ' ')}
           >
-            <li className="Apropos">A Propos</li>{' '}
+            <li className="a-propos">A Propos</li>{' '}
           </NavLink>
         </ul>
       </nav>
