@@ -1,4 +1,6 @@
 .header{
+  width: 50%;
+   margin: auto;
    margin-top: 10px;
    display: flex;
    flex-direction: row;

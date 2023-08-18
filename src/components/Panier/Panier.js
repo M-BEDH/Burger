@@ -16,7 +16,7 @@ function Panier({ cartItems, removeItemFromCart, numberOfItemsInCart }) {
 
   return (
     <div className="Cart">
-      <h2>Panier ({numberOfItemsInCart} articles)</h2>
+      <h2>Panier {numberOfItemsInCart} articles</h2>
       <ul>
         {cartItems.map((item) => (
           <li key={item.id}>

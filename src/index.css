@@ -1,9 +1,10 @@
 body{
-    max-width: 40%;
-    margin: 0 auto;
+    margin: 0;
     background-color: aliceblue;
 }
 main{
+    max-width: 45%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

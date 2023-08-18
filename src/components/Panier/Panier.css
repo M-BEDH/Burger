@@ -1,3 +1,9 @@
+.Cart{
+   max-width: 175px;
+}
 .Cart ul{
    padding: 0;
+}
+.Cart h2{
+   max-width: 200px;
 }
