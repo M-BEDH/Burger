@@ -12,3 +12,10 @@ main{
     margin-bottom: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media screen and (max-width: 781px){
+    main{
+        max-width: 100%;
+    }
+    
+}

@@ -29,8 +29,8 @@
     border-radius: 20px;
 }
 .accompagnement {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 label{
     margin-bottom: 10px;
