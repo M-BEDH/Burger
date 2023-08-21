@@ -10,7 +10,7 @@
     margin-bottom: 30px;
     background: linear-gradient(177deg, #ffe319 26%, #000000 10%, #bbf9bb 37%, #fffac9 102%);
     border-radius: 30px;
-    animation: myAnimBurger 2s ease 0s 1 normal forwards;
+    animation: myAnimBurger 2s linear 0s 1 alternate backwards;
  }
 @keyframes myAnimBurger {
 
@@ -21,7 +21,7 @@
     }
 
     15% {
-        transform: translateX(-15px) rotate(6deg);
+        transform: translateX(-30px) rotate(6deg);
     }
 
     30% {
