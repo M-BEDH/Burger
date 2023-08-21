@@ -54,10 +54,7 @@
 
 @media screen and (max-width: 781px){
 .A-propos-title{
-    font-size: 25px;
-    width: 175%;
-    position: relative;
-    left: -36%;
+    font-size: 24px;
    }
    .Page-A-propos{
     position: relative;
