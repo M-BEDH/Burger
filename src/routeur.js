@@ -11,8 +11,8 @@ function Routeur() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/a-propos/" element={<APropos />} />
-          <Route path="/burger/:id/" element={<Burger />} />
+          <Route path="/a-propos" element={<APropos />} />
+          <Route path="/burger/:id" element={<Burger />} />
         </Routes>
       </Layout>
     </BrowserRouter>
