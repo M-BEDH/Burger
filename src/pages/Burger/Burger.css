@@ -19,8 +19,12 @@
     height: 47%;
     object-fit: cover;
 }
-.BurgerPage p{
+.BurgerPage .description, .accompagnement{
     font-size: 20px;
+}
+.BurgerPage .description{
+   display: flex;
+   justify-content: center;
 }
 .imgBG img{
     width: 100%;
@@ -39,7 +43,6 @@ label{
     text-align: center;
     border: 2px solid #095e17;
     color: #000;
-    font-size: 25px;
     font-weight: bold;
     border-radius: 10px;
     background-color: rgb(201, 241, 210);
@@ -51,7 +54,8 @@ label{
     margin-top: 0px;
 }
 p.description{
-    width: 55%;
+    width: 68%;
+    margin: auto;
     color: black;
     text-shadow : 0.1em 0.1em 0.1em rgb(187, 183, 183);
     padding: 15px;
@@ -77,4 +81,14 @@ button{
   color: red;
   font-weight: bold;
   z-index: 1;
+}
+
+@media screen and (max-width: 781px) {
+.price{
+    font-size: 17px;
+}
+.BurgerPage{
+    position: relative;
+    top: -100px;
+}
 }

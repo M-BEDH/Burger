@@ -3,7 +3,7 @@ body{
     background-color: rgb(243, 249, 255);
 }
 main{
-    max-width: 45%;
+    width: 80%;
     padding-top: 300px;
     margin: auto;
     display: flex;
