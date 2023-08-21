@@ -15,7 +15,7 @@
         0% {
             animation-timing-function: ease-in;
             opacity: 1;
-            transform: translateY(-45px);
+            transform: translateY(-40px);
         }
         
         24% {
