@@ -3,7 +3,7 @@ body{
     background-color: rgb(245, 255, 243);
 }
 main{
-    width: 80%;
+    width: 60%;
     padding-top: 300px;
     margin: auto;
     display: flex;
@@ -11,6 +11,10 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 248, 235);
     padding-bottom: 50px;
+}
+@media screen and (max-width: 781px) {
+    main{
+        width: 100%;
+    }
 }
