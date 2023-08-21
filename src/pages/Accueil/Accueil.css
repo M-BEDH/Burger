@@ -10,53 +10,37 @@
     margin-bottom: 30px;
     background: linear-gradient(177deg, #ffe319 26%, #000000 10%, #bbf9bb 37%, #fffac9 102%);
     border-radius: 30px;
-    animation: myAnim 2s ease 0s 1 normal forwards;
-    @keyframes myAnim {
-        0% {
-            animation-timing-function: ease-in;
-            opacity: 1;
-            transform: translateY(-40px);
-        }
-        
-        24% {
-            opacity: 1;
-        }
-        
-        40% {
-            animation-timing-function: ease-in;
-            transform: translateY(-20px);
-        }
-        
-        65% {
-            animation-timing-function: ease-in;
-            transform: translateY(-10px);
-        }
-        
-        82% {
-            animation-timing-function: ease-in;
-            transform: translateY(-4px);
-        }
-        
-        93% {
-            animation-timing-function: ease-in;
-            transform: translateY(-2px);
-        }
-        
-        25%,
-        55%,
-        75%,
-        87% {
-            animation-timing-function: ease-out;
-            transform: translateY(0px);
-        }
-        
-        100% {
-            animation-timing-function: ease-out;
-            opacity: 1;
-            transform: translateY(0px);
-        }
+    animation: myAnimBurger 2s ease 0s 1 normal forwards;
+ }
+@keyframes myAnimBurger {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-15px) rotate(6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(-6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(-2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(1.2deg);
     }
 }
+
 @media screen and (max-width: 781px){
     a{
         width: 40%;
