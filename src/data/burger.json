@@ -4,7 +4,7 @@
 		"title": "Burger maison",
 		"pictures": "https://image.shutterstock.com/image-photo/fresh-tasty-burger-isolated-on-260nw-705104968.jpg",
 		"description": "Emblématique et délicieux ! Produits frais, de qualité.",
-        "price": "15e",
+        "price": "15eur",
 		"accompagnement": [
 			"Boeuf",
 			"Tomates",
@@ -19,7 +19,7 @@
         "title": "Burger triple",
         "pictures": "https://images.unsplash.com/photo-1542574271-7f3b92e6c821?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1cmdlcnxlbnwwfHwwfHx8MA==&w=1000&q=80",
         "description": "Pour les plus gourmands ! Produits frais, de qualité.",
-        "price": "23e",
+        "price": "23eur",
 		"accompagnement": [
 			"Triple Boeuf",
 			"Tomates",
@@ -34,7 +34,7 @@
         "title": "Burger Vegan",
         "pictures": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1cmdlcnN8ZW58MHx8MHx8fDA=&w=1000&q=80",
         "description": "Succulent tofu grillé ! Produits frais, de qualité.",
-        "price": "12e",
+        "price": "12eur",
 		"accompagnement": [
 			"Tofu grillé",
 			"Tomates",
@@ -50,7 +50,7 @@
         "title": "Burger Fromager",
         "pictures": "https://www.adeline-cuisine.fr/wp-content/uploads/2016/11/burger-savoyard-raclette-jambon-fume-maison-recette-678x508.jpg",
         "description": "Le burger, au Fromage coulant! Produits frais, de qualité.",
-        "price": "15e",
+        "price": "15eur",
 		"accompagnement": [
 			"Boeuf",
 			"Tomates",
@@ -66,7 +66,7 @@
         "title": "Burger pain vert",
         "pictures": "https://www.guydemarle.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNnB1QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--dd48d682ffa91c9043264c55b6c6903c9fb73c54/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9VWTI5dFltbHVaVjl2Y0hScGIyNXpld2c2QzNKbGMybDZaVWtpRFRZd01IZzJNREJlQmpvR1JWUTZER2R5WVhacGRIbEpJZ3REWlc1MFpYSUdPd2RVT2dsamNtOXdTU0lRTmpBd2VEWXdNQ3N3S3pBR093ZFUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--929a1958a8630156464b089800ca739f1b4570de/burger-italien-0.jpg",
         "description": " A découvrir! Produits frais, de qualité.",
-        "price": "13e",
+        "price": "13eur",
 		"accompagnement": [
 			"Boeuf",
 			"Tomates",
