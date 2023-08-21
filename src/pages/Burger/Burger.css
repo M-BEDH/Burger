@@ -89,6 +89,10 @@ button{
 }
 .BurgerPage{
     position: relative;
-    top: -100px;
+    top: -150px;
+}
+.BurgerPage h1{
+    font-size: 30px;
+    margin-top: 20px;
 }
 }

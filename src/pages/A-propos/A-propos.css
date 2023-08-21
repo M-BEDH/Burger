@@ -57,11 +57,9 @@
     font-size: 24px;
    }
    .Page-A-propos{
+    width: 90%;
     position: relative;
-    top: -100px;
-   }
-   .Page-A-propos p{
+    top: -150px;
     font-size: 20px;
-    width: 60%; 
    }
-    }
+}
