@@ -4,16 +4,15 @@
     justify-content: center;
     align-items: center;
     color: #0b6e1b;
-    margin-top: 50px;
     margin-bottom: 50px;
-    background-color: rgb(233, 255, 255);
+    background-color: rgb(242, 255, 255);
     border-radius: 20px;
 }
 .BurgerPage h1{
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 40px;
-    margin-top: 0px;
+    padding-bottom: 30px;
+    margin-top: 80px;
 }
 .imgBG{
     width: 50%;
@@ -52,6 +51,7 @@ label{
     margin-top: 0px;
 }
 p.description{
+    width: 55%;
     color: black;
     text-shadow : 0.1em 0.1em 0.1em rgb(187, 183, 183);
     padding: 15px;
@@ -65,4 +65,16 @@ button{
     border-radius: 10px;
     background-color: rgb(201, 241, 210);
     margin-bottom: 30px;
+}
+.error-message {
+  position: relative;
+  top: -30px;
+  left: -55px;
+  display: block;
+  width: 270px;
+  font-size: 16px;
+  line-height: 28px;
+  color: red;
+  font-weight: bold;
+  z-index: 1;
 }

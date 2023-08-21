@@ -1,10 +1,25 @@
 .footer{
-    border: 1px solid rgb(136, 203, 241);
-    background-color: rgb(232, 252, 252);
+    width: 80%;
+    margin: auto;
+    background-color: #f7fff7;
+    border: 1px solid #fffac9;
     height: 100px;
     position: relative; 
-    bottom: 0;  
+    bottom: 0; 
 }
 .textFooter{
+    font-size: 13px;
+    font-weight: bold;
     text-align: center;
+    justify-content: center;
+    line-height: 100px;
+}
+@media screen and (max-width: 781px) {
+.footer{
+    width: 100%;
+    border: none;
+}
+.textFooter{
+    font-size: 10px;
+}
 }

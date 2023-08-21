@@ -1,4 +1,4 @@
-a{
+ a{
     width: 40%;
     text-decoration: none; 
     text-align: center;
@@ -55,7 +55,7 @@ a{
 }
 @media screen and (max-width: 781px){
     a{
-        width: 35%;
+        width: 100%;
         background-color: #ffe319;
         margin-bottom: 30px;
     }

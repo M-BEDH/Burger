@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footer">
-      <p className="textFooter">Place sticky footer content here.</p>
+      <p className="textFooter">@ BURGER BY - M-B. TOUS DROITS RESERVES</p>
     </div>
   );
 }

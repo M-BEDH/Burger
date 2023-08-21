@@ -4,17 +4,13 @@ import './Burger.css';
 import { useParams } from 'react-router-dom';
 import Panier from '../../components/Panier/Panier';
 
-/**
- * Toggles the given `acc` in the `selectedAccompagnements` array.
- *
- * @param {any} acc - The value to toggle in the `selectedAccompagnements` array.
- * @return {undefined} This function does not return anything.
- */
 function Burger() {
   const params = useParams();
   const burger = burgers.find((burger) => burger.id === params.id);
 
-  const [selectedAccompagnements, setSelectedAccompagnements] = useState([]);
+  const [selectedAccompagnements, setSelectedAccompagnements] = useState(
+    burger.accompagnement
+  );
   const [cartItems, setCartItems] = useState([]);
   const [cartVisible, setCartVisible] = useState(false);
 
@@ -25,12 +21,6 @@ function Burger() {
     }
   }, []);
 
-  /**
-   * Toggles the given `acc` in the `selectedAccompagnements` array.
-   *
-   * @param {any} acc - The value to toggle in the `selectedAccompagnements` array.
-   * @return {undefined} This function does not return anything.
-   */
   const toggleAccompagnement = (acc) => {
     if (selectedAccompagnements.includes(acc)) {
       setSelectedAccompagnements(
@@ -41,12 +31,7 @@ function Burger() {
     }
   };
 
-  /**
-   * Adds the selected item to the cart.
-   *
-   * @return {void}
-   */
-  function addToCart() {
+  const addToCart = () => {
     if (selectedAccompagnements.length === 0) {
       alert('Veuillez sélectionner au moins un accompagnement.');
       return;
@@ -59,28 +44,17 @@ function Burger() {
     };
     const updatedCartItems = [...cartItems, newCartItem];
     setCartItems(updatedCartItems);
-    setSelectedAccompagnements([]);
+    setSelectedAccompagnements(burger.accompagnement); // Cocher tous les accompagnements par défaut
     setCartVisible(true);
     localStorage.setItem('cartItems', JSON.stringify(updatedCartItems));
-  }
+  };
 
-  /**
-   * Removes an item from the cart.
-   *
-   * @param {number} itemId - The ID of the item to be removed.
-   * @return {undefined} This function does not return any value.
-   */
   const removeItemFromCart = (itemId) => {
     const updatedCartItems = cartItems.filter((item) => item.id !== itemId);
     setCartItems(updatedCartItems);
     localStorage.setItem('cartItems', JSON.stringify(updatedCartItems));
   };
 
-  /**
-   * Toggles the visibility of the cart.
-   *
-   * @return {void}
-   */
   const toggleCartVisibility = () => {
     setCartVisible(!cartVisible);
   };
@@ -98,7 +72,7 @@ function Burger() {
       <p className="description">{burger.description}</p>
       <p className="accompagnement">
         {burger.accompagnement.map((accompagnement) => (
-          <label key={`${burger.id}-`}>
+          <label key={`${burger.id}-${accompagnement}`}>
             <input
               type="checkbox"
               checked={selectedAccompagnements.includes(accompagnement)}
@@ -109,8 +83,15 @@ function Burger() {
         ))}
       </p>
       <button onClick={addToCart} disabled={isAddToCartDisabled}>
-        Ajouter au panier
+        {isAddToCartDisabled ? (
+          <span className="error-message">
+            Veuillez sélectionner au moins un accompagnement.
+          </span>
+        ) : (
+          'Ajouter au panier'
+        )}
       </button>
+
       <button onClick={toggleCartVisibility}>
         {cartVisible
           ? 'Cacher le panier'

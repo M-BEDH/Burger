@@ -10,7 +10,8 @@
 			"Tomates",
 			"Salade",
 			"Oignons",
-			"Fromage"
+			"Fromage",
+			"Cornichons"
 		]
 	}, 
     {
@@ -24,7 +25,8 @@
 			"Tomates",
 			"Salade",
 			"Oignons frits",
-			"Fromage"
+			"Fromage",
+			"Cornichons"
 		]
     },
      {
@@ -39,7 +41,8 @@
 			"Salade",
 			"Oignons",
 			"Fromage",
-            "Sauce vegan"
+            "Sauce vegan",
+			"Cornichons"
 		]
     },
 	  {
@@ -54,7 +57,8 @@
 			"Salade",
 			"Bleu",
 			"Fromage",
-            "Sauce fromage"
+            "Sauce fromage",
+			"Cornichons"
 		]
     },
 	 {
@@ -64,6 +68,7 @@
         "description": " A découvrir! Produits frais, de qualité.",
         "price": "13e",
 		"accompagnement": [
+			"Boeuf",
 			"Tomates",
 			"Salade",
 			"Mozzarella",
