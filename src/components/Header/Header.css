@@ -46,12 +46,12 @@ li {
 
 @media screen and (max-width: 781px){
     .header{
-        width: 95%;
-        margin: 0px;
-        padding: 10px;
+        width: 100%;
+        margin-left: 0%;
+        margin: auto;
     }
     .headerTitle{
-        font-size: 30px; 
+        font-size: 25px; 
     }
     .accueil,
     .a-propos{

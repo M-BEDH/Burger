@@ -62,5 +62,6 @@
    }
    .Page-A-propos p{
     font-size: 20px;
+    width: 60%; 
    }
     }

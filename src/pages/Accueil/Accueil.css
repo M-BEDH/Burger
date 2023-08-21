@@ -56,9 +56,9 @@
 }
 @media screen and (max-width: 781px){
     a{
-        width: 100%;
+        width: 45%;
         background-color: #ffe319;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     
 }
