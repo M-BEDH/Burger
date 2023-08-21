@@ -24,22 +24,22 @@
         
         40% {
             animation-timing-function: ease-in;
-            transform: translateY(-24px);
+            transform: translateY(-20px);
         }
         
         65% {
             animation-timing-function: ease-in;
-            transform: translateY(-12px);
+            transform: translateY(-10px);
         }
         
         82% {
             animation-timing-function: ease-in;
-            transform: translateY(-6px);
+            transform: translateY(-4px);
         }
         
         93% {
             animation-timing-function: ease-in;
-            transform: translateY(-4px);
+            transform: translateY(-2px);
         }
         
         25%,
