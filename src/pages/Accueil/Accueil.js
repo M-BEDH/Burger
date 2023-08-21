@@ -5,7 +5,11 @@ import './Accueil.css';
 
 function Home() {
   return burgers.map((burger) => (
-    <NavLink key={burger.id} to={'/burger/' + burger.id + '/#'}>
+    <NavLink
+      className="AccueilPage"
+      key={burger.id}
+      to={'/burger/' + burger.id + '/#'}
+    >
       <div className="BurgerContainer">
         <Card
           key={burger.id}
