@@ -46,7 +46,7 @@
     color: #000;
   }
   .burger img{
-    height: 90px;
+    max-height: 75px;
     width: 75%;
     margin-top: 20px;
   }
@@ -64,3 +64,11 @@
   }
 }
   
+
+@media screen and (min-width: 782px) and (max-width: 12800px){
+  .burger img{
+    max-height: 90px;
+    width: 60%;
+    margin-top: 20px;
+}
+}

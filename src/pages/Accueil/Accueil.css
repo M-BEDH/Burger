@@ -46,6 +46,11 @@
         width: 35%;
         padding-bottom: 5px;
         position: relative;
-    }
-    
+    } 
+}
+
+@media screen and (min-width: 782px) and (max-width: 12800px) {
+.AccueilPage{
+    width: 26%;
+}
 }
