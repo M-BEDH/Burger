@@ -11,7 +11,7 @@
 }
 .A-propos-title{
     width: 100%;
-    font-size: 45px;
+    font-size: 40px;
     margin: auto;
     padding-top: 8%;
     padding-bottom: 10%;
@@ -22,6 +22,7 @@
     box-shadow: 1px 1px 10px 5px #f7d411 inset ;
     text-shadow: 0.1em 0.1em 0.1em rgb(199, 194, 194);
     animation: myAnim 2s ease 0s 1 normal forwards;
+    border-radius: 10px;
 }
 @keyframes myAnim {
     

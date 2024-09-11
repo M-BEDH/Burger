@@ -2,16 +2,18 @@
     position: relative;
     top: -140px;
 }
- a{
-    width: 28%;
-    text-decoration: none; 
-    text-align: center;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    background: linear-gradient(177deg, #ffe319 26%, #000000 10%, #bbf9bb 37%, #fffac9 102%);
-    border-radius: 30px;
-    animation: myAnimBurger 2s linear 0s 1 alternate backwards;
- }
+
+  a {
+      width: 28%;
+      text-decoration: none;
+      text-align: center;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    background: linear-gradient(132deg, #ffe319 26%, #938a8a 10%, #bbf9bb 37%, #fffac9 102%);
+      border-radius: 30px;
+      animation: myAnimBurger 2s linear 0s 1 alternate backwards;
+  }
+
 @keyframes myAnimBurger {
 
     0%,
